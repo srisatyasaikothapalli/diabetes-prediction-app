@@ -9,8 +9,8 @@ from auth import login_user, register_user
 model = pickle.load(open("diabetes_model.pkl", "rb"))
 
 # Page config
-st.set_page_config(page_title="Diabetes Prediction AI", page_icon="🧠")
-st.title("🩺 Diabetes Prediction AI")
+st.set_page_config(page_title="Diabetes Prediction App", page_icon="🧠")
+st.title("🩺 Diabetes Prediction App")
 
 # --- Initialize session state ---
 if 'logged_in' not in st.session_state:
